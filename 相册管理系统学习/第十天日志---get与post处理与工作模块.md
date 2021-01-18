@@ -43,6 +43,9 @@
         res.end(util.inspect(post));
     });
  	}).listen(3000);
+**这里的listen函数限制了，只要是本地的locallhoust（代表本地）：3000，后面的路径任意**
+
+
 
 ### http.createServer方法使用
 
